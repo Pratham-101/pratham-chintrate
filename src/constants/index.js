@@ -20,7 +20,7 @@ export const ABOUT_TEXT = `
   <br/><br/>
   Check out my resume here 
   <span style="display: inline-block;">
-    <a href="https://drive.google.com/file/d/1ADPFMjoMvHnOKtZ1Pj9WjmcPs0c-HBq6/view?usp=sharing" target="_blank" 
+    <a href="https://drive.google.com/file/d/1PDN2sggxnvugnqN6tX5_ae0p991Lrtq_/view?usp=sharing" target="_blank" 
       style="background: linear-gradient(to right, #f093fb, #667eea, #764ba2);
       border-radius: 50px;
       color: neon;
@@ -36,7 +36,6 @@ export const ABOUT_TEXT = `
   </span>
 `;
 
-
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
@@ -47,7 +46,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2023 - 2024",
-    role: "jt Cultural Secretary",
+    role: "Joint Cultural Secretary",
     company: "KJSCE students’ Council",
     description: `Coordinated and managed major college events, including technical, sports, and cultural fests. Facilitated team communication and led the planning and execution of these key activities, enhancing overall student engagement and participation.`,
     technologies: [""],
