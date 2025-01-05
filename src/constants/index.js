@@ -20,7 +20,7 @@ export const ABOUT_TEXT = `
   <br/><br/>
   Check out my resume here 
   <span style="display: inline-block;">
-    <a href="https://drive.google.com/file/d/1PDN2sggxnvugnqN6tX5_ae0p991Lrtq_/view?usp=sharing" target="_blank" 
+    <a href="https://drive.google.com/file/d/1Y6ksjsKR8trjVlgefltppAiSgWb4bQ0m/view?usp=sharing" target="_blank" 
       style="background: linear-gradient(to right, #f093fb, #667eea, #764ba2);
       border-radius: 50px;
       color: neon;
