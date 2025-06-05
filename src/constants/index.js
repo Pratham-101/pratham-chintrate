@@ -10,17 +10,22 @@ import project9 from "../assets/projects/project-9.jpg";
 
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a passionate and adaptable developer with experience across the full stack and a growing expertise in AI and data science. I specialize in building robust and scalable web applications using modern frameworks like React, Next.js, Node.js, and databases such as MySQL, PostgreSQL, and MongoDB.
+
+Beyond full stack development, I actively work on cutting-edge Generative AI projects, including LLMs, Retrieval-Augmented Generation (RAG) systems, and intelligent chatbot development. My journey has expanded into data science and machine learning, allowing me to craft AI-driven solutions that enhance user experiences and solve real-world problems.
+
+Whether it's building APIs, creating ML pipelines, or integrating intelligent systems into applications, I enjoy bridging the gap between traditional development and the future of AI.`;
 
 export const ABOUT_TEXT = `
-  I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. 
-  I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. 
-  I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. 
-  Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.
+  I’m a curious, versatile, and self-driven developer who thrives at the intersection of software engineering and AI innovation. My background in full stack web development forms the foundation of my approach to solving problems—clean architecture, strong UI/UX, and scalable backends.
+
+Recently, I’ve been immersed in building LLM-powered applications using RAG architecture, prompt engineering, and extracting structured data from unstructured sources. I’ve also explored data science and machine learning through internships and personal projects, applying statistical and ML techniques to derive meaningful insights from complex data.
+
+I'm always eager to collaborate, contribute to open-source, and stay ahead in a rapidly evolving tech landscape. Outside of code, you'll find me exploring AI research, participating in hackathons, and sharing knowledge with the tech community.
   <br/><br/>
   Check out my resume here 
   <span style="display: inline-block;">
-    <a href="https://drive.google.com/file/d/1Y6ksjsKR8trjVlgefltppAiSgWb4bQ0m/view?usp=sharing" target="_blank" 
+    <a href="https://drive.google.com/file/d/1aeNvnyOviPQquBqR0_l0djdT5DAoiWzp/view?usp=sharing" target="_blank" 
       style="background: linear-gradient(to right, #f093fb, #667eea, #764ba2);
       border-radius: 50px;
       color: neon;
@@ -36,7 +41,55 @@ export const ABOUT_TEXT = `
   </span>
 `;
 
+export const HACKATHONS = [
+  {
+    title: "PIWOT Imagine Hackathon 2025",
+    subtitle: "Asia’s largest design & code hackathon",
+    images: [
+      "/hackathons/PanIIT_Hackathon/01.jpeg",
+      "/hackathons/PanIIT_Hackathon/02.jpeg",
+      "/hackathons/PanIIT_Hackathon/03.jpeg",
+      "/hackathons/PanIIT_Hackathon/04.jpeg",
+      "/hackathons/PanIIT_Hackathon/05.jpeg"
+    ],
+    description: "Our team secured 1st place at Asia’s largest design and code hackathon, held at the iconic Jio World Convention Centre, competing among 15,000+ participants. We built SickSense, a genomics-based disease prediction platform integrated with a real-time food tracker to promote preventive healthcare. By combining AI, genetics, and real-world data, our solution provided personalized health insights and nutrition recommendations. The project was praised for its innovation and impact, earning us ₹3.5 lakhs in prize money. This experience sharpened my skills in AI-driven healthcare, problem-solving under pressure, and presenting solutions to top industry leaders.",
+    linkedinPostUrl: ""
+  },
+  {
+    title: "VNR VJIET Hackathon",
+    subtitle: "National Level Technical Hackathon",
+    images: [
+      "/hackathons/VNR_VJIET_Hackathon/01.jpeg",
+      "/hackathons/VNR_VJIET_Hackathon/02.jpeg",
+      "/hackathons/VNR_VJIET_Hackathon/03.jpeg",
+      "/hackathons/VNR_VJIET_Hackathon/04.jpeg"
+    ],
+    description: "Thrilled to have won 1st place at the 4th National Level VJ Hackathon 2024, hosted by VNRVJIET, Telangana. Competing against 3,000+ participants nationwide, our team from KJ Somaiya College of Engineering was among the top 30 to reach the finals. During the intense 24-hour offline hackathon, we delivered an impactful tech solution under pressure, earning a ₹15,000 cash prize.Grateful for the mentorship and support from our faculty and the incredible platform provided by VNRVJIET and CSI. This experience further honed my teamwork, critical thinking, and rapid prototyping skills in a competitive, real-world setting.",
+    linkedinPostUrl: ""
+  },
+  {
+    title: "Anveshana Hackathon 2024",
+    subtitle: "Innovation and Technology Challenge (36-Hour National Hackathon)",
+    images: [
+      "/hackathons/Anveshana_Hackathon/01.jpeg",
+      "/hackathons/Anveshana_Hackathon/02.jpeg",
+      "/hackathons/Anveshana_Hackathon/03.jpeg",
+      "/hackathons/Anveshana_Hackathon/04.jpeg",
+      "/hackathons/Anveshana_Hackathon/05.jpeg"
+    ],
+    description: "We secured 1st place at the 36-hour Anveshana Hackathon 2024, hosted by ATMIYA University, Gujarat, competing against 175+ teams from across the country. The event challenged participants to build innovative, real-world tech solutions within a limited timeframe. Our project stood out for its creativity, technical depth, and practical impact, earning a cash prize of ₹25,000. This win reinforced my passion for solving complex problems through technology and innovation. It was a rewarding experience that enhanced my skills in product development, rapid prototyping, and delivering scalable solutions under time-bound constraints.",
+    linkedinPostUrl: ""
+  }
+];
+
 export const EXPERIENCES = [
+  {
+    year: "Dec 2024 - Jan 2025",
+    role: "Data Science and Machine Learning Engineer",
+    company: "QualityKiosk Technologies Pvt. Ltd.",
+    description: `Led the fine-tuning and deployment of advanced Large Language Models (LLMs) for diverse machine learning and data science applications, ensuring optimal performance and adaptability. Engineered Retrieval-Augmented Generation (RAG) models and AI agents utilizing LangChain, enabling efficient and context-aware knowledge retrieval. Conducted extensive training, testing, and customization of pre-trained models to meet specific business requirements with high accuracy and reliability.`,
+    technologies: [],
+  },
   {
     year: "2024 - Present",
     role: "General Secretary",
@@ -47,7 +100,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2024",
     role: "Joint Cultural Secretary",
-    company: "KJSCE students’ Council",
+    company: "KJSCE students' Council",
     description: `Coordinated and managed major college events, including technical, sports, and cultural fests. Facilitated team communication and led the planning and execution of these key activities, enhancing overall student engagement and participation.`,
     technologies: [""],
   },
@@ -74,8 +127,6 @@ export const PROJECTS = [
     description:
       "A comprehensive finance management application that tracks expenses, manages budgets, and predicts future financial trends, helping users achieve their financial goals with ease.",
     technologies: ["HTML", "Tailwind CSS", "React", "Express", "Node.js", "MongoDB"],
-    link: "https://github.com/Pratham-101/helixify",  // Add this line
-
   },
   {
     title: "Helixify ",

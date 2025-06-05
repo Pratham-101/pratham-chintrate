@@ -8,6 +8,9 @@ import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandPhp } from "react-icons/tb";
+import { TbBrandPython } from "react-icons/tb";
+import { TbBrandFirebase } from "react-icons/tb";
+
 
 import { motion } from "framer-motion";
 
@@ -31,7 +34,7 @@ const Technologies = () => {
       whileInView={{opacity:1,y:0}}
       initial={{opacity:0,y:-100}}
       transition={{duration:1.5}}
-      className="my-20 text-center text-4xl">
+      className="my-20 text-center text-6xl">
     Technologies
     </motion.h2>
       <motion.div 
@@ -121,6 +124,22 @@ const Technologies = () => {
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+           <TbBrandPython className="text-7xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(7)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <TbBrandFirebase className="text-7xl text-red-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
